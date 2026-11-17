@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kobita Archive</string>
+
+    <!-- Navigation -->
+    <string name="nav_explore">Explore</string>
+    <string name="nav_poets">Poets</string>
+    <string name="nav_stylometry">Stylometry</string>
+    <string name="nav_saved">Saved</string>
+
+    <!-- Explore Screen -->
+    <string name="explore_hero_eyebrow">BENGALI POEM CORPUS</string>
+    <string name="explore_hero_title">Kobita Archive</string>
+    <string name="explore_hero_subtitle">%1$d poems · %2$d poets · %3$d genres</string>
+    <string name="explore_search_hint">Search poems, poets, or verses…</string>
+    <string name="explore_featured_label">VERSE OF THE MOMENT</string>
+    <string name="explore_random_poem">Surprise Poem</string>
+    <string name="explore_all_genres">সব (%1$d)</string>
+    <string name="explore_results_count">%1$d poems shown</string>
+    <string name="explore_empty_title">No matching poems</string>
+    <string name="explore_empty_subtitle">Try clearing the genre filter or searching a different Bengali or poet keyword.</string>
+    <string name="explore_clear_filters">Reset filters</string>
+    <string name="sort_label">Sort</string>
+    <string name="sort_default">Curated</string>
+    <string name="sort_length_desc">Longest</string>
+    <string name="sort_richness_desc">Richest Vocabulary</string>
+    <string name="sort_title_asc">Title A–Z</string>
+
+    <!-- Poets Screen -->
+    <string name="poets_title">Poet Anthology</string>
+    <string name="poets_subtitle">Explore 30 Bengali poets and their stylometric profiles</string>
+    <string name="poets_search_hint">Search poet name…</string>
+    <string name="poets_poem_count">%1$d poems</string>
+    <string name="poets_word_count">%1$s words</string>
+    <string name="poets_ttr_badge">TTR %1$d%%</string>
+    <string name="poets_empty_title">No poets found</string>
+    <string name="poets_empty_subtitle">Try another Bengali name or clear your search.</string>
+    <string name="poet_detail_profile">Stylometric Profile</string>
+    <string name="poet_detail_genre_mix">Genre Distribution</string>
+    <string name="poet_detail_avg_ttr">Mean TTR</string>
+    <string name="poet_detail_avg_wpl">Words / Line</string>
+    <string name="poet_detail_poems_header">Collected Works (%1$d)</string>
+
+    <!-- Stylometry Screen -->
+    <string name="stylometry_title">Stylometric Insights</string>
+    <string name="stylometry_subtitle">Quantitative literary analysis of the Bengali Poem Dataset (NLPIR 2022)</string>
+    <string name="stylometry_metric_poems">Poems</string>
+    <string name="stylometry_metric_poets">Poets</string>
+    <string name="stylometry_metric_words">Total Words</string>
+    <string name="stylometry_metric_vocab">Unique Words</string>
+    <string name="stylometry_genre_dist_title">Distribution by Literary Class</string>
+    <string name="stylometry_genre_dist_hint">Tap any class bar to explore its poems</string>
+    <string name="stylometry_poet_richness_title">Lexical Diversity Leaders (TTR)</string>
+    <string name="stylometry_poet_richness_hint">Poets with at least 3 poems ranked by Type-Token Ratio</string>
+    <string name="stylometry_poet_volume_title">Most Prolific Poets in Corpus</string>
+    <string name="stylometry_research_title">About the Research Dataset</string>
+    <string name="stylometry_research_body">Compiled for stylometric research on Bengali poetry and published at NLPIR 2022. Contains annotated poems across 14 traditional and modern thematic classes.</string>
+    <string name="stylometry_open_paper">Read NLPIR 2022 Paper</string>
+
+    <!-- Reader / Detail Screen -->
+    <string name="reader_back">Back</string>
+    <string name="reader_bookmark_add">Save poem</string>
+    <string name="reader_bookmark_remove">Remove saved poem</string>
+    <string name="reader_share">Share poem</string>
+    <string name="reader_copy">Copy text</string>
+    <string name="reader_copied_toast">Poem copied to clipboard</string>
+    <string name="reader_typography">Reader display settings</string>
+    <string name="reader_font_size">Text size</string>
+    <string name="reader_surface">Paper tone</string>
+    <string name="reader_surface_paper">Paper</string>
+    <string name="reader_surface_sepia">Sepia</string>
+    <string name="reader_surface_night">Night</string>
+    <string name="reader_font_family">Script style</string>
+    <string name="reader_font_serif">Serif</string>
+    <string name="reader_font_sans">Sans</string>
+    <string name="reader_stylometry_card">Stylometric Breakdown</string>
+    <string name="reader_lines">Lines</string>
+    <string name="reader_words">Words</string>
+    <string name="reader_unique">Unique</string>
+    <string name="reader_ttr">Lexical TTR</string>
+    <string name="reader_wpl">Words / Line</string>
+    <string name="reader_top_words">Frequent Words</string>
+    <string name="reader_provenance">Archival Provenance</string>
+    <string name="reader_source_link">View Original Archive Source</string>
+    <string name="reader_archived_on">Archived: %1$s</string>
+    <string name="reader_view_poet">More by %1$s</string>
+    <string name="reader_not_found">Poem could not be loaded.</string>
+
+    <!-- Saved Screen -->
+    <string name="saved_title">Personal Library</string>
+    <string name="saved_bookmarks_tab">Bookmarks (%1$d)</string>
+    <string name="saved_recent_tab">Recently Read (%1$d)</string>
+    <string name="saved_empty_bookmarks_title">No saved poems yet</string>
+    <string name="saved_empty_bookmarks_subtitle">Tap the bookmark icon on any poem while exploring or reading to keep it in your personal anthology.</string>
+    <string name="saved_empty_recent_title">No reading history yet</string>
+    <string name="saved_empty_recent_subtitle">Poems you open will appear here for quick return.</string>
+    <string name="saved_browse_cta">Browse Anthology</string>
+    <string name="saved_clear_history">Clear history</string>
+
+    <!-- Common -->
+    <string name="loading_corpus">Loading Bengali poetry corpus…</string>
+    <string name="error_corpus">Unable to load bundled poetry dataset.</string>
+    <string name="retry">Retry</string>
+    <string name="cd_hero_banner">Vintage Bengali manuscript pages with brass inkwell and shiuli blossoms</string>
+    <string name="cd_stylometry_banner">Geometric poetic meter waves and brass divider compass illustration</string>
+</resources>

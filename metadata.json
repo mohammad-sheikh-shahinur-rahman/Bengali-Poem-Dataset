@@ -1,0 +1,8 @@
+{
+  "name": "Kobita Archive",
+  "description": "An offline Bengali poetry anthology and stylometric explorer built from the Bengali Poem Dataset (332 poems across 30 poets and 14 literary classes).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
